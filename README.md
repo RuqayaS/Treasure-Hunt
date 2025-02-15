@@ -1,4 +1,4 @@
-Treasure Hunt Project
+# Treasure Hunt Project
 
 Welcome to the Treasure Hunt Project! This game is designed to provide an exciting and interactive experience where participants solve cybersecurity-related questions to navigate towards the reward.
 
