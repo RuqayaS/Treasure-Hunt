@@ -27,9 +27,6 @@ Follow the hints to locate the next QR code and continue the hunt.
 There are two competing teams, each with a unique pathway.
 The questions remain the same for both teams to ensure fairness.
 Teams must not share information to maintain the competitive spirit.
-
-# Reaching the Final Reward:
-
 The team that successfully answers all questions and follows the clues will reach the final page.
 The final page will provide the exact location of the hidden reward.
 
