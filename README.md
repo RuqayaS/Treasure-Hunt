@@ -20,13 +20,7 @@ Answer the cybersecurity-related question presented on the webpage.
 If the answer is correct, you will be navigated to the Clue_Page.
 3.  Finding the Next QR Code:
 The Clue_Page will provide hints on where to find the next QR code.
-Follow the hints to locate the next QR code and continue the hunt.
-
-# Competing Teams:
-
-There are two competing teams, each with a unique pathway.
-The questions remain the same for both teams to ensure fairness.
-Teams must not share information to maintain the competitive spirit.
+Follow the hints to locate the next QR code and continue the hunt..
 The team that successfully answers all questions and follows the clues will reach the final page.
 The final page will provide the exact location of the hidden reward.
 
