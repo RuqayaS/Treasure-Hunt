@@ -12,17 +12,13 @@ The project contains two pathways. Two teams will compete against each other to 
 Once a team gets to the last question, they are redirected to the page that tells them where the reward is hidden exactly.
 
 # How It Works
-Access Levels via QR Codes:
+1. Access Levels via QR Codes:
 Each level is accessed through a QR code placed at different locations in the university.
 Scan the QR code using your smartphone to access the question for that level.
-
-# Answering Questions:
-
+ 2.  Answering Questions:
 Answer the cybersecurity-related question presented on the webpage.
 If the answer is correct, you will be navigated to the Clue_Page.
-
-# Finding the Next QR Code:
-
+3.  Finding the Next QR Code:
 The Clue_Page will provide hints on where to find the next QR code.
 Follow the hints to locate the next QR code and continue the hunt.
 
