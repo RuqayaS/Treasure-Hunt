@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDG Treasure Hunt -Level 4</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    /> 
+  <script type="module" defer src="firebaseconfig.js"></script> 
+  <!-- removed modal part in script below -->
+    <script src="script.js" ></script>
+  </head>
+  <body>
+    
+    <header>
+      <img
+        src="https://www.cdnlogo.com/logos/g/65/gdg-google-developer-group.svg"
+        alt="GDG Logo"
+        class="logo"
+      />
+      <div class="user-counter">
+        <span class="material-icons">people</span>
+        <span id="userCount">0</span>
+      </div>
+    </header>
+    <!-- Here we edit the question / answers -->
+    <main>
+      <div class="level-container">
+        <h1>Level 4: The Final Quest</h1>
+        <div class="question-box">
+          <p>  DECRYPT THE CODE:<br> F XJ RLQPLMMIB
+          </p>
+       <form  id="answerForm" data-level="4" data-correct-answer="I AM UNSTOPPABLE">
+            <input
+              type="text"
+              id="answerInput"
+              placeholder="Enter your answer"
+              required
+            >
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </form>
+          <!-- ADDED THIS LINE BELOW -->
+           <script src="script.js"></script> 
+        </div> 
+        <button
+          class=" btn hint-btn"
+          data-hint="This encryption method, named after a famous Roman general, involves shifting each letter in
+          the plaintext by a fixed number of positions in the alphabet. 
+          For Example: Code: EBIIL: Each letter was shifted 3 positions backward to encrypt it. Now to decrypt it we shift each letter 3 positions 
+          forward. So it becomes E->H, B->E, I->L, I->L, L->0 = HELLO"
+        >
+          Show Hint
+        </button>
+      </div>
+    </main>
+
+    <div class="modal" id="hintModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Hint</h3>
+        <p id="hintText"></p>
+      </div>
+    </div>
+   
+  </body>
+</html>

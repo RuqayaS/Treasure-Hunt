@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDG Treasure Hunt -Level 3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    /> 
+  <script type="module" defer src="firebaseconfig.js"></script> 
+  <!-- removed modal part in script below -->
+    <script src="script.js" ></script>
+  </head>
+  <body>
+    
+    <header>
+      <img
+        src="https://www.cdnlogo.com/logos/g/65/gdg-google-developer-group.svg"
+        alt="GDG Logo"
+        class="logo"
+      />
+      <div class="user-counter">
+        <span class="material-icons">people</span>
+        <span id="userCount">0</span>
+      </div>
+    </header>
+    <!-- Here we edit the question / answers -->
+    <main>
+      <div class="level-container">
+        <h1>Level 3: The Mystery</h1>
+        <div class="question-box">
+          <p> What does CIA stand for in Cybersecurity?
+          </p>
+       <form  id="answerForm" data-level="3" data-correct-answer="Confidentiality Integrity Availability">
+            <input
+              type="text"
+              id="answerInput"
+              placeholder="Enter your answer"
+              required
+            >
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </form>
+          <!-- ADDED THIS LINE BELOW -->
+           <script src="script.js"></script> 
+        </div> 
+        <button
+          class=" btn hint-btn"
+          data-hint="CIA are three principles that form the foundation of information security. Each letter represents a word. 
+          Think of keywords like: Secretly, Accurately, Accessiblity"
+        >
+          Show Hint
+        </button>
+      </div>
+    </main>
+
+    <div class="modal" id="hintModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Hint</h3>
+        <p id="hintText"></p>
+      </div>
+    </div>
+   
+  </body>
+</html>

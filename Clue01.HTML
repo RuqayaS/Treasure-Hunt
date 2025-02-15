@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Clue</title>
+    <style>
+        :root {
+    --gdg-blue: #4285f4;
+    --gdg-red: #ea4335;
+    --gdg-yellow: #fbbc04;
+    --gdg-green: #34a853;
+    --dark-bg: #2d2d2d;
+    --light-text: #ffffff;
+    
+        }
+  
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            line-height: 1.6;
+            font-size: larger;
+        }
+        .container {
+            max-width: 800px;
+             height: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            /* background: rgba(255, 255, 255, 0.1); */
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            /*background: linear-gradient(135deg, var(--gdg-blue), var(--gdg-green)); */
+            background: var(--dark-bg); 
+            /*background:#fbbc04; */ 
+            border: 5px solid #000; /* Adding dark black left border */
+            padding-top: 6rem;
+        }
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background: linear-gradient(135deg, var(--gdg-blue), var(--gdg-green));
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              }
+        .clue {
+            font-size: 24px;
+            color:rgb(255, 225, 0); 
+           /* color:#047c26; */
+            margin-top: 20px;
+            text-align: center ;
+        }
+        .logo {
+    height: 50px;
+  }
+  .center-text {
+            text-align: center;
+            font-size: 24px;
+            /*color:#03406e; */
+            color:#34a853;
+          }
+          .gradient-text { 
+            /*background: linear-gradient(35deg, rgb(255, 45, 34), rgb(171, 22, 2));*/
+            background: linear-gradient(35deg, rgba(255, 87, 34, 1), rgb(255, 115, 0));
+             -webkit-background-clip: text;
+             background-clip: text;
+              color: transparent;
+              text-align: center;
+              font-size: 100px;
+               /* Makes text transparent to show the gradient */ }
+    </style>
+</head>
+<body>
+    <header>
+        <img
+          src="https://www.cdnlogo.com/logos/g/65/gdg-google-developer-group.svg"
+          alt="GDG Logo"
+          class="logo"
+        /> </header>
+        
+    <div class="container">
+        <h5 style = "text-align: center; font-size:30px;"> Congratulations on solving Level 1: The Beginning!</h5>
+        <p class="clue">Your next clue is: </p>
+        <h1 class = "gradient-text">KAFTOON</h1>
+        <p class="center-text "><i>Scan the QR code there to find the next challenge!</i></p>
+
+    </div>
+</body>
+</html>
+
+
+  
+  
